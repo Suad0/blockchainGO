@@ -1,0 +1,66 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Go module files
+go.sum
+
+# Dependency directories (vendor/)
+vendor/
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Compiled object files
+*.o
+*.a
+*.pyc
+
+# Binary output directories
+/bin/
+/dist/
+/out/
+
+# Temp files and cache
+/tmp/
+*.tmp
+*.temp
+*.bak
+*.old
+*~
+
+# Coverage reports
+*.cover
+coverage.out
+cover.out
+
+# Persistent blockchain data (if stored locally)
+blockchain.json
+
+# Test results
+test_results/
+
+# Ignoring JetBrains GoLand caches and settings
+/Users/suad/Library/Caches/JetBrains/GoLand*/
+
+# Ignore GoLand temporary files
+*.iml
+
+*.json
